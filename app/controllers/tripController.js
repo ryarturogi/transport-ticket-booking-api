@@ -45,9 +45,8 @@ const createTrip = async (req, res) => {
     destination,
     trip_date,
     fare,
-    created_on,
+    created_on
   ];
-
   try {
     const { rows } = await dbQuery.query(createTripQuery, values);
     const dbResponse = rows[0];

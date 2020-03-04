@@ -191,7 +191,7 @@ const dropBookingTable = () => {
  * Create All Tables
  */
 const createAllTables = () => {
-  createFamilyTable();
+  // createFamilyTable();
   createUserTable();
   createBusTable();
   createTripTable();
@@ -203,7 +203,7 @@ const createAllTables = () => {
  * Drop All Tables
  */
 const dropAllTables = () => {
-  dropFamilyTable();
+  // dropFamilyTable();
   dropUserTable();
   dropBusTable();
   dropTripTable();
